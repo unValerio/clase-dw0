@@ -1,0 +1,122 @@
+/*
+.container, .container-fluid{
+	border: 1px solid red;
+}
+
+.row{
+	border: 1px solid blue;
+}
+
+[class*="col-xs"] {
+    border: 1px solid green;
+}
+*/
+
+.contactanos{
+	color:gray;
+	margin: 15px 0;
+	display: block;
+	font-size: 12px;
+}
+
+.top-container{
+	border-bottom: 2px solid #eaeaea; 
+}
+
+.options{
+	display: inline-block;
+	padding: 15px;
+	font-size: 12px;
+	border-left: 2px solid #eaeaea;
+	font-size: 12px;
+	color:gray;
+}
+
+.top-right{
+	text-align: right;
+}
+
+.options i{
+	position: relative;
+    top: -1px;
+    right: -2px;
+}
+
+.carousel-inner img{
+	height: 400px!important;
+	width: 100%!important;
+}
+
+.col-carousel{
+	padding: 0;
+}
+
+.logo{
+	width: 150px;
+	margin: 15px 0;
+}
+
+.top-nav{
+	margin-top: 36px;
+}
+
+.top-nav>a{
+	font-size: 18px;
+	margin-left: 30px;
+	color: #333;
+}
+
+.top-nav>span{
+	font-size: 18px;
+	margin-left: 30px;
+	padding-right: 15px;
+}
+
+.top-nav>a:hover, .top-nav>a:focus, .top-nav>.active{
+	text-decoration: none;
+	color: #00e8ec!important;
+	border-bottom: 2px solid #00e8ec;
+	padding-bottom: 5px;
+}
+
+.col-top-nav{
+	text-align: right;
+}
+
+.features{
+	text-align: center;
+	padding: 50px 0;
+}
+
+.feature-icon{
+	color: #00e8ec;
+    font-size: 30px;
+    border: 2px solid #00e8ec;
+    border-radius: 50px;
+    padding: 18px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+.features hr{
+	width:70px;
+	border-top: 2px solid #ccc;
+}
+
+.container-footer{
+	padding: 0;
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #3c3c3c;
+	text-align: center;
+	padding-top: 60px;
+	color: white;
+}
+
+
+
+

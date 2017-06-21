@@ -1,0 +1,86 @@
+/* Aplica para la etiqueta html y body */
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #525252;
+}
+
+/* Aplica para todas las etiquetas */
+* {
+    box-sizing: border-box;
+}
+
+h1{
+	margin-left: 40px;
+	margin-bottom: 0;
+	color: #C0BAB6;
+}
+
+/* Aplica a todas las clases
+que cumplan con este patrón */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* Sistema de columnas para mi Grid */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Sistema de filas para mi Grid */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.background{
+	background-position-y: center;
+	background-image: url("fondo.jpg");
+	width: 70%;
+	margin: auto;
+	height: 500px;
+    background-size: cover;
+}
+
+.white-background{
+	background-color: white;
+	padding: 20px;
+}
+
+.title-background{
+	background-color: #333333;
+}
+
+.slogan{
+	margin-left: 40px;
+	margin-bottom: 20px;
+	color: #C0BAB6;
+}
+
+.menu{
+	background-color: #232323;
+	padding: 20px 10px;
+	margin-top: 20px;
+	color: #C0BAB6;
+	width: 416px;
+    text-align: center;
+}
